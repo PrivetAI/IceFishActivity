@@ -31,12 +31,13 @@ struct MainView: View {
                             if viewModel.selectedFish.isEmpty {
                                 emptyStateView
                             }
+                            
+                            // Select fish button
+                            selectFishButton
                         }
                         .padding(AppTheme.paddingMedium)
+                        .padding(.bottom, 80)
                     }
-                    
-                    // Bottom button
-                    selectFishButton
                 }
             }
             .navigationBarHidden(true)
@@ -153,7 +154,5 @@ struct MainView: View {
             icon: AnyView(FishIcon(size: 20, color: AppTheme.background)),
             action: { showFishSelection = true }
         )
-        .padding(AppTheme.paddingMedium)
-        .background(AppTheme.background)
     }
 }
