@@ -63,17 +63,20 @@ struct ContentView: View {
     }
     
     private var customTabBar: some View {
-        HStack(spacing: 0) {
-            tabButton(index: 0, icon: AnyView(HomeIcon(size: 24, color: selectedTab == 0 ? AppTheme.primary : AppTheme.textMuted)), title: "Home")
-            tabButton(index: 1, icon: AnyView(FishIcon(size: 24, color: selectedTab == 1 ? AppTheme.primary : AppTheme.textMuted)), title: "Fish")
-            tabButton(index: 2, icon: AnyView(SeasonIcon(size: 24, color: selectedTab == 2 ? AppTheme.primary : AppTheme.textMuted)), title: "Seasons")
-            tabButton(index: 3, icon: AnyView(StarIcon(size: 24, color: selectedTab == 3 ? AppTheme.primary : AppTheme.textMuted, filled: selectedTab == 3)), title: "Favorites")
+        VStack(spacing: 0) {
+            HStack(spacing: 0) {
+                tabButton(index: 0, icon: AnyView(HomeIcon(size: 24, color: selectedTab == 0 ? AppTheme.primary : AppTheme.textMuted)), title: "Home")
+                tabButton(index: 1, icon: AnyView(FishIcon(size: 24, color: selectedTab == 1 ? AppTheme.primary : AppTheme.textMuted)), title: "Fish")
+                tabButton(index: 2, icon: AnyView(SeasonIcon(size: 24, color: selectedTab == 2 ? AppTheme.primary : AppTheme.textMuted)), title: "Seasons")
+                tabButton(index: 3, icon: AnyView(StarIcon(size: 24, color: selectedTab == 3 ? AppTheme.primary : AppTheme.textMuted, filled: selectedTab == 3)), title: "Favorites")
+            }
+            .padding(.top, AppTheme.paddingMedium)
+            .padding(.bottom, AppTheme.paddingSmall)
         }
-        .padding(.top, AppTheme.paddingMedium)
-        .padding(.bottom, AppTheme.paddingLarge)
         .background(
             AppTheme.cardBackground
                 .shadow(color: Color.black.opacity(0.3), radius: 10, x: 0, y: -5)
+                .ignoresSafeArea(edges: .bottom)
         )
     }
     
