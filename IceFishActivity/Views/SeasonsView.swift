@@ -34,6 +34,7 @@ struct SeasonsView: View {
                             }
                         }
                         .padding(AppTheme.paddingMedium)
+                        .padding(.bottom, 100) // Extra padding for tab bar
                     }
                 }
             }

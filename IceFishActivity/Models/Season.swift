@@ -43,12 +43,18 @@ enum Season: String, CaseIterable, Identifiable {
         case 1:
             return .deepWinter
         case 2:
-            return day < 15 ? .deepWinter : .lateWinter
+            // February: first half is Deep Winter, second half is Late Winter
+            return day < 20 ? .deepWinter : .lateWinter
         case 3:
             return day < 15 ? .lateWinter : .preSpring
         case 4:
             return .preSpring
         default:
+            // For months outside winter season (May-October), 
+            // return the closest relevant season
+            if month >= 5 && month <= 10 {
+                return .preSpring // Not ice fishing season, but closest
+            }
             return .earlyWinter
         }
     }
