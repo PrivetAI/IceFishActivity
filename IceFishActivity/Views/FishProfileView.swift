@@ -31,12 +31,13 @@ struct FishProfileView: View {
                         
                         // All seasons preview
                         seasonsPreviewCard
+                        
+                        // Toggle button
+                        toggleButton
                     }
                     .padding(AppTheme.paddingMedium)
+                    .padding(.bottom, 80)
                 }
-                
-                // Toggle button
-                toggleButton
             }
         }
         .navigationBarHidden(true)
@@ -152,7 +153,5 @@ struct FishProfileView: View {
             style: isSelected ? .outlined : .filled,
             action: { viewModel.toggleFish(fish) }
         )
-        .padding(AppTheme.paddingMedium)
-        .background(AppTheme.background)
     }
 }
