@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00000001 /* IceFishActivityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000001; };
+		00000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000002; };
+		00000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10000003; };
+		00000004 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000004; };
+		00000005 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000005; };
+		00000006 /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000006; };
+		00000007 /* FishDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000007; };
+		00000008 /* FishActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000008; };
+		00000009 /* IconViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000009; };
+		0000000A /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000000A; };
+		0000000B /* ActivityGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000000B; };
+		0000000C /* FishRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000000C; };
+		0000000D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000000D; };
+		0000000E /* FishSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000000E; };
+		0000000F /* FishProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1000000F; };
+		00000010 /* SeasonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000010; };
+		00000011 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10000011; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10000001 /* IceFishActivityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceFishActivityApp.swift; sourceTree = "<group>"; };
+		10000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10000004 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		10000005 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		10000006 /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		10000007 /* FishDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishDatabase.swift; sourceTree = "<group>"; };
+		10000008 /* FishActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishActivityViewModel.swift; sourceTree = "<group>"; };
+		10000009 /* IconViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconViews.swift; sourceTree = "<group>"; };
+		1000000A /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		1000000B /* ActivityGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityGraphView.swift; sourceTree = "<group>"; };
+		1000000C /* FishRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishRowView.swift; sourceTree = "<group>"; };
+		1000000D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1000000E /* FishSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishSelectionView.swift; sourceTree = "<group>"; };
+		1000000F /* FishProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishProfileView.swift; sourceTree = "<group>"; };
+		10000010 /* SeasonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsView.swift; sourceTree = "<group>"; };
+		10000011 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		20000001 /* IceFishActivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceFishActivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40000001 = {
+			isa = PBXGroup;
+			children = (
+				40000002 /* IceFishActivity */,
+				40000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40000002 /* IceFishActivity */ = {
+			isa = PBXGroup;
+			children = (
+				10000001 /* IceFishActivityApp.swift */,
+				10000002 /* ContentView.swift */,
+				40000004 /* Models */,
+				40000005 /* ViewModels */,
+				40000006 /* Views */,
+				40000007 /* Theme */,
+				10000003 /* Assets.xcassets */,
+			);
+			path = IceFishActivity;
+			sourceTree = "<group>";
+		};
+		40000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20000001 /* IceFishActivity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10000005 /* Season.swift */,
+				10000006 /* Fish.swift */,
+				10000007 /* FishDatabase.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		40000005 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				10000008 /* FishActivityViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		40000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1000000D /* MainView.swift */,
+				1000000E /* FishSelectionView.swift */,
+				1000000F /* FishProfileView.swift */,
+				10000010 /* SeasonsView.swift */,
+				10000011 /* FavoritesView.swift */,
+				40000008 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40000007 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				10000004 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		40000008 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				10000009 /* IconViews.swift */,
+				1000000A /* PrimaryButton.swift */,
+				1000000B /* ActivityGraphView.swift */,
+				1000000C /* FishRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50000001 /* IceFishActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60000001;
+			buildPhases = (
+				50000002 /* Sources */,
+				30000001 /* Frameworks */,
+				50000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IceFishActivity;
+			productName = IceFishActivity;
+			productReference = 20000001 /* IceFishActivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					50000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 60000002;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40000001;
+			productRefGroup = 40000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50000001 /* IceFishActivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000003 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000001 /* IceFishActivityApp.swift in Sources */,
+				00000002 /* ContentView.swift in Sources */,
+				00000004 /* AppTheme.swift in Sources */,
+				00000005 /* Season.swift in Sources */,
+				00000006 /* Fish.swift in Sources */,
+				00000007 /* FishDatabase.swift in Sources */,
+				00000008 /* FishActivityViewModel.swift in Sources */,
+				00000009 /* IconViews.swift in Sources */,
+				0000000A /* PrimaryButton.swift in Sources */,
+				0000000B /* ActivityGraphView.swift in Sources */,
+				0000000C /* FishRowView.swift in Sources */,
+				0000000D /* MainView.swift in Sources */,
+				0000000E /* FishSelectionView.swift in Sources */,
+				0000000F /* FishProfileView.swift in Sources */,
+				00000010 /* SeasonsView.swift in Sources */,
+				00000011 /* FavoritesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		80000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ice Fish Activity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icefishing.activity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ice Fish Activity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.icefishing.activity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60000001 /* Build configuration list for PBXNativeTarget "IceFishActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80000003 /* Debug */,
+				80000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60000002 /* Build configuration list for PBXProject "IceFishActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80000001 /* Debug */,
+				80000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70000001 /* Project object */;
+}
