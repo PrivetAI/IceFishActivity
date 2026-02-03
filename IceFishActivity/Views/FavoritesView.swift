@@ -30,6 +30,7 @@ struct FavoritesView: View {
                             }
                         }
                         .padding(AppTheme.paddingMedium)
+                        .padding(.bottom, 100)
                     }
                 }
             }
